@@ -1,0 +1,13 @@
+.day{
+    height: 20px;
+    
+    border-width: 2px;
+    border-color: black;
+}
+#app-calendar{
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: brown;
+    height: 80px;
+}

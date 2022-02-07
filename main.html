@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="calendar.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Detska tancuvalna grupa</title>
+</head>
+<body vlink="black" alink="black" link="black">
+    <!-- header nav bar da napravq -->
+    <a id="home"> </a>
+    <div id="navbar">
+    <ul >
+        <li><img src=home.png class="icon"><a href="#home" tabindex="1">Начало</a></li>
+        <li><img src=gallery.png class="icon"><a href="#galeryL" tabindex="2">Галерия</a></li>
+        <li><img src="calendar.png" class="icon"><a href="#calendarL" tabindex="3">Събития</a></li>
+        <li><img src="contacts.png" class="icon"><a href="#contactsL" tabindex="4">Контакти</a></li>
+        <!-- <div id=langu><img class="lang"src="bg-flag.png">Admin Login </div> -->
+        <li id="options"><img src="options.png" class="icon" ><a href="about.asp" ></a></li>
+        <!-- da go napravq da e otsrani pri tesni ekrani i da ima login za admin -->
+      </ul>
+      
+      </div>
+      <div class="paralax">
+    
+
+      </div>
+      <div id="roundB">
+        <img class="hrPic"src="hr.png">
+      <div id="slideshow">       
+        <div class="prev" tabindex="5" onclick="plusSlides(-1); stopSlide()">&#10094;</div>
+        <a class="next" tabindex="6" onclick="plusSlides(1); stopSlide()">&#10095;</a>
+        <div id="cont">
+        <img id="slide1" class="slideImg" src="sl1.jpg">
+        <img id="slide2" class="slideImg" src="sl2.jpg">
+        <img id="slide3" class="slideImg" src="sl3.jpg">
+        </div>
+        
+          </div>
+          <img class="hrPic"src="hr2.png">
+        </div>
+          <section id="container" align="center">
+          <article id="vuvText" class="balon">
+<h1>Описание</h1>
+<hr>
+Народни танци за деца-Танцов състав "МАРИЦА"!
+Репетициите се провеждат вторник и четвъртък от 16.00ч,в СУ "Цар Симеон Велики"-гр.Пловдив.
+<!-- <div class="oshte">Още...</div> -->
+          </article>
+          <a id="calendarL"> </a>
+          <article id="balon1" class="balon">
+            <h1>Календар</h1>
+            <hr>
+            <div>
+            <div id="balon2" class="app-calendar">
+              
+
+              opit za cal
+            </div>
+            
+            </div>
+            <!-- <div class="oshte">Още...</div> -->
+          </article>
+            <article id="balon3" class="balon">
+              <a id="contactsL"> </a>
+
+              <h1>Контакти</h1>
+              <hr>
+              <div class="mapouter"><div class="gmap_canvas" id="map"><iframe width="100%" height="308" id="gmap_canvas" src="https://maps.google.com/maps?q=Bulgaria,%20Plovdiv,%D0%A1%D0%A3%20%22%D0%A6%D0%B0%D1%80%20%D0%A1%D0%B8%D0%BC%D0%B5%D0%BE%D0%BD%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%22&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:408px;width:100%;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:408px;width:100%;}</style></div></div>
+              <pre id="textMap">   
+              Карта
+              Телефон:
+              Facebook страница:
+              Адрес:
+              Линк за meet: 
+              </pre>
+              <!-- <div class="oshte" onclick="showHide(3);">Още...</div> -->
+              <a id="galeryL"> </a>
+
+            </article>
+          </section>
+</body>
+</html>
